@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Crimson Text', serif;
+
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url('girl.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+.left{
+
+    position: absolute;
+    left: 34px;
+    top: 20px;
+  /* border: 2px solid red; */
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Crimson Text', serif;
+}
+.btn:hover{
+    background-color: deepskyblue;
+}
+.right{
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    right: 34px;
+    top: 2px;
+  
+  
+
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.mid{
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    /* border: 2px solid rgb(200, 200, 205); */
+    .navbar{
+        display: inline-block;
+       text-align: end;
+        height: 30px;
+        
+    }
+    .navbar li{
+        display: inline-block;
+         font-size: 25px;;
+    }
+    .navbar li a{
+        color: white; 
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 25px;
+        
+    }
+    .navbar li a:hover, .navbar li a.active{
+       text-decoration: underline;
+       color: deepskyblue;
+    }
+   
+}
+.container{
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 75px;
+    margin: 40px 50px;
+  
+
+}
+.form-group input{
+    /* text-align: center; */
+    font-family: 'Baloo Bhai',cursive;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px;
+    font-size: 25px;
+    border-radius: 8px;
+}
